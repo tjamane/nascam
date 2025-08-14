@@ -52,9 +52,7 @@ export function DashboardLayout({ children }: DashboardLayoutProps) {
   const navigation = [
     { name: "Dashboard", href: "/dashboard", icon: Home },
     { name: "Member Profile", href: "/dashboard/member-profile", icon: User },
-    { name: "Log Sheets", href: "/dashboard/log-sheets", icon: FileMusic },
     { name: "Royalties", href: "/dashboard/royalties", icon: BarChart3 },
-    { name: "License Lookup", href: "/dashboard/license-lookup", icon: Search },
     { name: "Settings", href: "/dashboard/settings", icon: Settings },
   ]
 
